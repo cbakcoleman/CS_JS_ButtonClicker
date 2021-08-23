@@ -1,1 +1,42 @@
 /*-----------------NAV BAR-----------------*/
+.nav{
+    height: 75px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/*-----------------MAIN-----------------*/
+.main-container{
+    display: flex;
+}
+.entry{
+    display: flex;
+    margin-top: 15px;
+    width: 450px;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+.word{
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn{
+    box-shadow: 2px 2px 2px black;
+    background-color: chartreuse;
+}
+.link{
+    text-decoration: blue underline;
+    color: blue;
+}
+.italic{
+    font-style: italic;
+}
+.col{
+    flex: 1;
+
+}
+.col-2{
+    flex: 2;
+}
