@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="whole">
-        <div class="top-container">
+    <div>
+        <div>
             <div class="nav">
                 <h1>Dojonary</h1>
                 <div>
                     <input type="text" placeholder="Search...">
                 </div>
                 <div>
-                    <button class="btn">Login</button>
+                    <button class="btn" onclick="logout(this)">Login</button>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
                             <h1 class="word">ninja</h1>
                             <p class="italic">noun</p>
                             <p>Plural: <span class="italic">ninjas</span></p>
-                            <button class="btn">likes</button>
+                            <button class="btn" onclick="liked(this)">likes</button>
                         </div>
                         <div class="col-2">
                             <p>A practitioner skilled in the <span class="link">Japanese</span> are of <span class="link">ninjutsu</span></p>
@@ -38,7 +38,7 @@
                             <h1 class="word">ninja</h1>
                             <p class="italic">noun</p>
                             <p>Plural: <span class="italic">ninjas</span></p>
-                            <button class="btn">likes</button>
+                            <button class="btn" onclick="chartreuse(this)">likes</button>
                         </div>
                         <div class="col-2">
                             <p>A practitioner skilled in the <span class="link">Japanese</span> are of <span class="link">ninjutsu</span></p>
@@ -49,7 +49,7 @@
                             <h1 class="word">ninja</h1>
                             <p class="italic">noun</p>
                             <p>Plural: <span class="italic">ninjas</span></p>
-                            <button class="btn">likes</button>
+                            <button class="btn" onclick="liked(this)">likes</button>
                         </div>
                         <div class="col-2">
                             <p>A practitioner skilled in the <span class="link">Japanese</span> are of <span class="link">ninjutsu</span></p>
@@ -59,10 +59,11 @@
             <div class="col">
                 <div class="AddDef">
                         <p>Dojonary is defined by YOU</p>
-                        <button class="btn">Add Definition</button>
+                        <button class="btn" onclick="remove(this)">Add Definition</button>
                 </div>
             </div>
         </div>
     </div>
+<script src="script.js"></script>
 </body>
 </html>
