@@ -11,16 +11,24 @@
 .main-container{
     display: flex;
 }
+/*-----------------LEFT-----------------*/
 .entry{
     display: flex;
-    margin-top: 15px;
     width: 450px;
-    padding: 10px;
-    border: 1px solid rebeccapurple;
 }
 .word{
     font-size: 25px;
     font-weight: bold;
+}
+/*-----------------RIGHT-----------------*/
+.adddef{
+    width: 200px;
+}
+/*-----------------ALL-----------------*/
+.box{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
 }
 .btn{
     box-shadow: 2px 2px 2px black;

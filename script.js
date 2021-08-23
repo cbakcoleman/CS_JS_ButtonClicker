@@ -11,5 +11,9 @@ function liked(e) {
 }
 
 function chartreuse(e) {
-    window.alert("Chartreuse is an eco-friendly color because you always 're-use' 'Chart!'")
+    window.alert("Chartreuse is an eco-friendly color because you 're-use' 'Chart!'")
+}
+
+function surf(e) {
+    window.alert("Watch Surf Ninjas!")
 }
